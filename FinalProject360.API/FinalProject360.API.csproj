@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\FinalProject360.Repositorio\FinalProject360.Repositorio.csproj" />
+    <ProjectReference Include="..\FinalProject360.Dominio\FinalProject360.Dominio.csproj" />
+    <ProjectReference Include="..\FinalProject.Aplicacao\FinalProject.Aplicacao.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

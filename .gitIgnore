@@ -1,0 +1,145 @@
+########################
+# Compilação (.NET)
+########################
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.cache
+
+########################
+# Publicação (.NET)
+########################
+publish/
+*.publish.xml
+
+########################
+# Arquivos do Visual Studio
+########################
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.sln.ide
+*.csproj.user
+*.vspscc
+*.vssscc
+
+########################
+# Rider / JetBrains
+########################
+.idea/
+*.sln.iml
+*.dotCover
+
+########################
+# Configurações sensíveis
+########################
+appsettings.*.json
+secrets.json
+.env
+.env.*
+*.env.*
+*.secret
+*.key
+*.pem
+
+########################
+# Logs
+########################
+logs/
+*.log
+
+########################
+# Banco de dados locais
+########################
+*.mdf
+*.ldf
+*.sqlite
+*.sqlite3
+*.sqlite-shm
+*.sqlite-wal
+*.db
+*.db-shm
+*.db-wal
+projeto360.sqlite*
+
+########################
+# Front-end (React, Node.js, Vite)
+########################
+node_modules/
+build/
+dist/
+coverage/
+.npm/
+.yarn/
+.pnp/
+.pnp.js
+.cache/
+*.lock
+*.tgz
+.vite/
+*.log
+
+########################
+# Python
+########################
+__pycache__/
+*.py[cod]
+*.so
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+*.manifest
+*.spec
+venv/
+.venv/
+.venv*/
+env/
+ENV/
+pip-log.txt
+pip-delete-this-directory.txt
+
+########################
+# Jupyter Notebook
+########################
+.ipynb_checkpoints/
+*.ipynb~
+
+########################
+# PyInstaller
+########################
+*.spec
+dist/
+build/
+*.app
+
+########################
+# Testes Python
+########################
+.coverage
+.tox/
+.nox/
+htmlcov/
+pytest_cache/
+.cache/
+
+########################
+# Arquivos de sistema
+########################
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+########################
+# Outros
+########################
+*.tmp
+*.bak
+*.swp
+*.swo
+*.orig
+*.rej
