@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.12" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FinalProject.Aplicacao\FinalProject.Aplicacao.csproj" />
+    <ProjectReference Include="..\FinalProject360.Dominio\FinalProject360.Dominio.csproj" />
+    <ProjectReference Include="..\FinalProject360.Repositorio\FinalProject360.Repositorio.csproj" />
+  </ItemGroup>
+
+</Project>
