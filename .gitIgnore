@@ -37,8 +37,6 @@ publish/
 ########################
 # Configurações sensíveis
 ########################
-appsettings.*.json
-secrets.json
 .env
 .env.*
 *.env.*
